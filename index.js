@@ -9,6 +9,10 @@ app.get('/bootstrap', function (req, res) {
   res.send('Hello bootstrap!');
 });
 
+app.get('/bootstrap-template', function (req, res) {
+  res.send('Hello bootstrap-template!');
+});
+
 app.get('*', function (req, res) {
   res.send('Hello World!');
 });
