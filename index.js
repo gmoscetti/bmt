@@ -17,6 +17,6 @@ app.get('*', function (req, res) {
   res.send('Hello World!');
 });
 
-var server = app.listen(3000, function () {
-  console.log('Example app listening at localhost:3000');
+var server = app.listen(80, function () {
+  console.log('Example app listening at localhost:80');
 });
